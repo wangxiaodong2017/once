@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset='utf-8'><!--编码格式-->
+		<meta name='Keywords' content='前端,web,网页博客,web技术'><!--关键字搜索，有益于SEO-->
+		<meta name='Description' content='王小东个人技术展示'><!--网页内容描述-->
+		<title>王小东个人网页</title>
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/ability.css">
+		<style>
+			
+		</style>
+	</head>
+	<body>
+		<div id='header' style='z-index:9999;'>
+			<div id='container'>
+				<div class="logo">
+					<a href="index.html">YOUR LOGO</a>
+				</div>
+				<div class='sort'>
+					<ul>
+						<li><a href="inde.html">首页</a></li>
+						<li><a href="service.html">服务</a></li>
+						<li><a href="portfolio.html">作品介绍</a></li>
+						<li><a href="pricing.html">定价</a></li>
+						<li><a href="contact.html">通信</a></li>	
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--广告轮播-->
+		<div id='banner'>
+			<ul>
+				<li style="z-index:20;display:block;background:url('img/1.jpg') no-repeat center;"><a href=""></a></li>
+				<li style="background:url('img/2.jpg') no-repeat center;"><a href=""></a></li>
+				<li style="background:url('img/3.jpg') no-repeat center;"><a href=""></a></li>
+			</ul>	
+			<div class="indicator">
+				<a href="" class='active'></a>
+				<a href=""></a>
+				<a href=""></a>
+			</div>
+		</div>
+		<div id='ability'>
+				<div class='left'>
+					<ul>
+						<li style="background:url('img/team1.png')"><a href=""></a></li>
+						<li class='sug'><a href="">
+							<h4>Jhon Deo Alex</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						</a></li>
+						<li><a href="" class="s-btn">了解</a></li>
+					</ul>
+				</div>
+				<div class='center'>
+					<ul>
+						<li style="background:url('img/team2.jpg');"><a href=""></a></li>
+						<li class="sug"><a href="">
+							<h4>Jhon Deo Alex</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						</a></li>
+						<li><a href="" class="s-btn">了解</a></li>
+					</ul>
+				</div>
+				<div class='right' style="background:blue">
+					bootstrap写条纹进度条
+				</div>
+		</div>
+		<div id="down_to" style="background:#D9EDF7;width:80%;height:100px;margin:20px auto;">
+				<span>下载源码地址:http://baidu.com</span><a>Download</a>	
+		</div>
+		<!--项目介绍-->
+		<div id="item">
+			<div>
+				<span></span>	
+				<h4>Sure Quique Menu</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec nisl odio. Mauris vehicula at nunc id posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				<a>查看演示</a>
+			</div>
+			<div style="margin:0 5px;">
+				<span class="item01"></span>	
+				<h4>Sure Quique Menu</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec nisl odio. Mauris vehicula at nunc id posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				<a>查看演示</a>
+			</div>
+			<div>
+				<span class="item02"></span>	
+				<h4>Sure Quique Menu</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec nisl odio. Mauris vehicula at nunc id posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				<a>查看演示</a>
+			</div>
+		</div>
+		<!--网页介绍-->
+		<div id="note-sec"> 
+			<div class="opa"></div>
+			<div class="text_web">
+				<h2></h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti qui rerum eligendi at nobis nihil illo veniam quae minus fuga corporis aspernatur sequi quos suscipit doloremque dolorem quis molestiae reprehenderit.</p>
+			</div>
+		</div>
+		<!--合作单位-->
+		<div id="cooprate">
+			<p><img src="img/clients.png" alt="图片加载中。。。"></p>
+		</div>
+		<div id="footer">
+			<div class="F_r">
+				<h4><strong>ABOUT COMPANY</strong></h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque officia voluptatem? Porro inventore incidunt dolor possimus sed eius blanditiis placeat amet fugit modi et molestias aut nobis fuga numquam odit.</p>
+				<a href="" class='F_more'>了解更多&gt;&gt;</a>
+			</div>
+			<div class="F_c">
+				<h4><strong>SOCIAL LINKS</strong></h4>
+				<p></p>
+			</div>
+			<div class="F_l">
+				<h4><strong>地址/联系方式</strong></h4>
+				<p>400-****-***</p>
+				<b>**市**区**工业园32号</b>
+				<a href="">按钮</a>
+			</div>
+		</div>
+		<script src='js/jquery-1.11.3.js'></script>
+		<script src='js/index.js'></script>
+		<script>
+			document.getElementsByTagName("body")[0].onscroll=function(){
+				if(document.getElementsByTagName("body")[0].scrollTop>50){
+					document.getElementById('header').style.height=50+"px";
+					document.getElementById('container').style.margin=0;
+				}else{
+					document.getElementById('header').style.height=80+'px';
+					document.getElementById('container').style.margin=15+'px';
+				}
+			}
+		</script>
+	</body>
+</html>
